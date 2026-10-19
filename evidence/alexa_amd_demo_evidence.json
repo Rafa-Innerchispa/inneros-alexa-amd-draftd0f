@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "text": "El acelerador AMD Radeon AI PRO R9700 está operando a plena capacidad con soporte completo para ROCm 10, ofreciendo velocidades de inferencia de hasta 1.2 TFLOPS gracias a su arquitectura de GPU avanzada.",
+  "latency": {
+    "total_latency_ms": 2900.93,
+    "ttft_ms": 99.12,
+    "completion_tokens": 60,
+    "prompt_tokens": 92,
+    "tokens_per_second": 20.68,
+    "device": "AMD Radeon AI PRO R9700 (gfx1201)",
+    "live": true
+  },
+  "alexa_response": {
+    "version": "1.0",
+    "response": {
+      "outputSpeech": {
+        "type": "SSML",
+        "ssml": "<speak>El acelerador AMD Radeon AI PRO R9700 está operando a plena capacidad con soporte completo para ROCm 10, ofreciendo velocidades de inferencia de hasta 1.2 TFLOPS gracias a su arquitectura de GPU avanzada. Generado en el acelerador AMD en 2900 milisegundos.</speak>"
+      },
+      "card": {
+        "type": "Simple",
+        "title": "InnerOS AMD Telemetry",
+        "content": "El acelerador AMD Radeon AI PRO R9700 está operando a plena capacidad con soporte completo para ROCm 10, ofreciendo velocidades de inferencia de hasta 1.2 TFLOPS gracias a su arquitectura de GPU avanzada. Generado en el acelerador AMD en 2900 milisegundos.\n\n[Métricas AMD R9700]\nLatencia Total: 2900.93 ms\nTTFT: 99.12 ms\nVelocidad: 20.68 tok/s"
+      },
+      "reprompt": {
+        "outputSpeech": {
+          "type": "PlainText",
+          "text": "¿Deseas consultar otra métrica del clúster AMD?"
+        }
+      },
+      "shouldEndSession": true
+    },
+    "sessionAttributes": {
+      "last_query_latency": {
+        "total_latency_ms": 2900.93,
+        "ttft_ms": 99.12,
+        "completion_tokens": 60,
+        "prompt_tokens": 92,
+        "tokens_per_second": 20.68,
+        "device": "AMD Radeon AI PRO R9700 (gfx1201)",
+        "live": true
+      }
+    }
+  }
+}
